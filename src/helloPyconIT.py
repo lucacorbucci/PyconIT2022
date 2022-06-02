@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import time 
 
-st.title("Hello Pycon IT")
+st.title("Hello Pycon IT 2022")
 
 @st.cache
 def load_data(path: str) -> pd.DataFrame:
