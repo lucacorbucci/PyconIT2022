@@ -10,7 +10,7 @@ def load_data(path: str) -> pd.DataFrame:
     time.sleep(2)
     return data
 
-df = load_data("./race-winners.csv")
+df = load_data("../data/race-winners.csv")
 st.dataframe(df)
 
 class_type = st.radio(
